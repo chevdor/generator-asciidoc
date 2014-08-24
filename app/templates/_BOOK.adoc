@@ -1,0 +1,55 @@
+= <%= docTitle %>
+<%= docAuthor %> <<%= docAuthorEmail %>>
+v<%= docVersion %>, <%= docCreated %>
+:toc:
+:source-highlighter: pygments 				// coderay, highlightjs, prettify, and pygments.
+:doctype: <%= docType %>
+
+image:http://i.imgur.com/JHaAlBJ.png[]
+
+//// 
+Check out the Asciidoc syntax quick reference here: 
+http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/
+
+You may include comments like the one a few lines above
+or comments blocks like this one.
+////
+
+Hello *{author}*, your asciidoc document is waiting for you to edit! +
+The following lines show you a few of the key syntax elements.
+
+include::include.adoc[]
+
+[Chapter 1]
+== Your first chapter
+*Lorem ipsum* _dolor_ +sit amet+, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. 
+
+[source,shell,numbered]
+```
+echo 'Hello World'
+echo 'I want to travel'		<1>
+```
+
+<1> He wants to travel!
+
+=== Sub Chapter 1
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. 
+
+.A list:
+- item1
+- item2
+-- sub item2
+
+.An ordered list:
+. sadf
+. asdfs
+.. sub item asdfs
+
+.Checklists are great
+- [*] checked
+- [x] also checked
+- [ ] not checked
+
+You may also use footnotes.footnote:[Footnotes are useful.]
