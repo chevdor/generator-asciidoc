@@ -20,7 +20,7 @@
     "app"
   ],
   "keywords": [
-    "yeoman-generator"
+    "yeoman-generator", "asciidoc"
   ],
   "dependencies": {
     "yeoman-generator": "^0.17.0",
