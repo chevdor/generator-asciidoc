@@ -7,8 +7,8 @@ v0.1, 2014-08-24
 :endash:
 
 ifdef::env-github[]
-image::https://travis-ci.org/chevdor/generator-asciidoc.js.svg?branch=master[Build Status, link=https://travis-ci.org/chevdor/generator-asciidoc]
-endif::[]
+image:http://img.shields.io/travis/asciidoctor/asciidoctor/master.svg[Build Status, link="https://travis-ci.org/chevdor/generator-asciidoc"]
+endif::env-github[]
 
 :proj: generator-generator
 
