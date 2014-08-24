@@ -1,6 +1,6 @@
 {
   "name": "generator-asciidoc",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Yeoman Asciidoc generator",
   "license": "MIT",
   "main": "app/index.js",
@@ -20,7 +20,8 @@
     "app"
   ],
   "keywords": [
-    "yeoman-generator", "asciidoc"
+    "yeoman-generator",
+    "asciidoc"
   ],
   "dependencies": {
     "yeoman-generator": "^0.17.0",
