@@ -12,7 +12,6 @@ endif::env-github[]
 
 :proj: generator-generator
 
-> [Yeoman](http://yeoman.io) generator
 
 
 == Getting Started
